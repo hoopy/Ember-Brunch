@@ -25,8 +25,6 @@ exports.config =
     stylesheets:
       defaultExtension: 'less'
       joinTo: 'stylesheets/app.css'
-      order:
-        before: ['vendor/styles/bootstrap.css']
 
     templates:
       precompile: true
