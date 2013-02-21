@@ -13,12 +13,7 @@ See more info on the [official site](http://brunch.io)
 
 ## Usage
     
-    brunch new myapp -s git://github.com/icholy/ember-brunch.git
-
-if you wanted to use the `empty` skeleton branch
-
-    git clone git://github.com/icholy/ember-brunch.git -b empty
-    brunch new myapp -s ./ember-brunch/
+    brunch new myapp -s git@bytesmith.org:ember_brunch.git
 
 Once the project has been created, you can start a server by running
 
@@ -32,20 +27,15 @@ then visit `localhost:3333`
     │   ├── app.js
     │   ├── assets
     │   │   ├── img
-    │   │   │   ├── glyphicons-halflings.png
-    │   │   │   └── glyphicons-halflings-white.png
     │   │   └── index.html
     │   ├── controllers
     │   ├── initialize.js
     │   ├── models
     │   ├── routes
     │   ├── styles
-    │   │   └── application.css
+    │   │   └── application.less
     │   ├── templates
-    │   │   ├── application.hbs
-    │   │   └── index.hbs
     │   └── views
-    │       └── index.js
     ├── config.coffee
     ├── package.json
     ├── README.md
@@ -53,14 +43,12 @@ then visit `localhost:3333`
     │   └── spec.coffee
     └── vendor
         ├── scripts
-        │   ├── bootstrap.js
         │   ├── console-helper.js
         │   ├── ember-data-latest.js
         │   ├── ember-latest.js
-        │   ├── handlebars-1.0.rc.2.js
+        │   ├── handlebars.js
         │   └── jquery-1.9.0.min.js
         └── styles
-            └── bootstrap.css
 
 
 
@@ -78,5 +66,5 @@ The generated output is placed in the `public/` (by default) directory when `bru
 Software Versions used:
 
 * jQuery 1.9.0
-* Ember 1.0.0-pre.4
-* Handlebars 1.0 rc2
+* Ember 1.0.0 rc1
+* Handlebars 1.0 rc3
