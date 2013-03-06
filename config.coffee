@@ -33,7 +33,7 @@ exports.config =
       joinTo: 'javascripts/app.js' : /^app/
 
   modules:
-    addSourceURLs: true
+    addSourceURLs: false
 
   # allow _ prefixed templates so partials work
   conventions:
