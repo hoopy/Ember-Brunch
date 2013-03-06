@@ -1,5 +1,5 @@
 
-window.App = require('app')
+window.App = require 'app'
 
 #//////////////////////////////////
 #// Extensions
