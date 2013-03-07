@@ -13,7 +13,7 @@ See more info on the [official site](http://brunch.io)
 
 ## Usage
     
-    brunch new myapp -s git@bytesmith.org:ember_brunch.git
+    brunch new myapp -s git@github.com:hoopy/Ember-Brunch.git
 
 Once the project has been created, you can start a server by running
 
